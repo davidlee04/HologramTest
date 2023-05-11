@@ -37,7 +37,7 @@ function App() {
         address = walletAddress[0];
     };
     const loadNFTHandler = async () => {
-        const nfts = await alchemy.nft.getNftsForOwner(testAddress);
+        const nfts = await alchemy.nft.getNftsForOwner(address);
         // console.log(nfts.ownedNfts[0]);
         let cardList = [];
         // nfts.ownedNfts.forEach((nft) => {
