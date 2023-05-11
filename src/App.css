@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  color:aliceblue;
+  
+}
+button {
+  margin-bottom: 3vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

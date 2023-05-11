@@ -1,0 +1,27 @@
+.nftcard {
+    position:relative;
+    width:15vw;
+    height:30vh;
+    background-color: #DCED71;
+    margin: auto;
+    color:#1E1F24;
+    border-radius: 15px;
+    text-align:center;
+    font-size:1em;
+}
+img {
+   height:auto;
+   width:auto;
+   max-width:90%;
+   max-height:80%;
+   position:relative;
+   top:5%;
+}
+p {
+    position:absolute;
+    width:100%;
+    left:0px;
+    bottom:0px;
+    font-size:1.5vh;
+    
+}
